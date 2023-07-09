@@ -13,8 +13,6 @@ namespace AstraTestProject.Services.HomeService
 {
     public class HomeService : IHomeService
     {
-        //todo проверить, что в Контексете НЕТ хпрдкода со сторокой подключения к БД
-
         private readonly AstraTestProjectContext _context;
         private readonly IMapper _mapper;
 
